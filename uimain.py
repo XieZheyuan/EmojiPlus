@@ -49,7 +49,7 @@ class MyWindow(QMainWindow, ui.Ui_MainWindow):
             self,
             "另存为",
             os.getcwd(),
-            "Emojji++文档(*.emojji *.txt)"
+            "Emoji++文档(*.emoji *.txt)"
         )[0]
         self.fd=s
         with open(s,"w") as f:
@@ -77,7 +77,7 @@ class MyWindow(QMainWindow, ui.Ui_MainWindow):
             self,
             "打开",
             os.getcwd(),
-            "Emojji++文档(*.emoji *.txt)"
+            "Emoji++文档(*.emoji *.txt)"
         )[0]
         with open(s,"r") as f:
             v=f.read()
@@ -95,7 +95,7 @@ class MyWindow(QMainWindow, ui.Ui_MainWindow):
             "∷","※","▓","♩","♪","♫","♬","§","〼","◎","¤","۞",
             "♭","℗","®","©","℡","™","♯","♮","‖","¶","卍","卐","▬","〓","☊"
             )
-        item,ok=QInputDialog.getItem(self,"Emojji++","选取一个符号",ch)
+        item,ok=QInputDialog.getItem(self,"Emoji++","选取一个符号",ch)
         if(item and ok):
             self.textEdit.insertPlainText(item)
 
@@ -122,7 +122,7 @@ class MyWindow(QMainWindow, ui.Ui_MainWindow):
             "╰(*°▽°*)╯",
             "----更多颜文字----"
         )
-        item, ok = QInputDialog.getItem(self, "Emojji++", "选取一个颜文字", ch)
+        item, ok = QInputDialog.getItem(self, "Emoji++", "选取一个颜文字", ch)
         if (item and ok):
 
             if(item != "----更多颜文字----"):
@@ -138,7 +138,7 @@ class MyWindow(QMainWindow, ui.Ui_MainWindow):
             "Α","Σ","Δ","Φ","Γ","Η","Ξ","Κ",
             "Λ","Ζ","Χ","Ψ","Ω","Β","Ν","Μ")
 
-        item, ok = QInputDialog.getItem(self, "Emojji++", "选取一个字母", ch)
+        item, ok = QInputDialog.getItem(self, "Emoji++", "选取一个字母", ch)
         if (item and ok):
 
 
@@ -160,7 +160,7 @@ class MyWindow(QMainWindow, ui.Ui_MainWindow):
             "ㄕ","ㄖ","ㄗ","ㄘ","ㄙ"
         )
 
-        item, ok = QInputDialog.getItem(self, "Emojji++", "选取一个注音符号", ch)
+        item, ok = QInputDialog.getItem(self, "Emoji++", "选取一个注音符号", ch)
         if (item and ok):
             self.textEdit.insertPlainText(item)
 
@@ -173,7 +173,7 @@ class MyWindow(QMainWindow, ui.Ui_MainWindow):
             "Œ"
         )
 
-        item, ok = QInputDialog.getItem(self, "Emojji++", "选取一个拉丁字母", ch)
+        item, ok = QInputDialog.getItem(self, "Emoji++", "选取一个拉丁字母", ch)
         if (item and ok):
             self.textEdit.insertPlainText(item)
     def copy(self):
