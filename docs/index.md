@@ -1,8 +1,8 @@
-﻿<!DOCTYPE html>
+
 <html lang="zh-hans">
 <head>
     <meta charset="UTF-8">
-    <title>Emojji++帮助文档</title>
+
 </head>
 <body>
 <h1>Emoji++帮助文档(网页版)</h1>
