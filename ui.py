@@ -12,7 +12,7 @@ class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
         MainWindow.resize(640, 480)
-        MainWindow.setWindowTitle("Emoji++")
+        MainWindow.setWindowTitle("Emojii++")
         self.centralwidget = QtWidgets.QWidget(MainWindow)
         self.centralwidget.setObjectName("centralwidget")
         self.textEdit = QtWidgets.QTextEdit(self.centralwidget)
@@ -62,7 +62,7 @@ class Ui_MainWindow(object):
 
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
-        self.label.setText(_translate("MainWindow", "Untitled.emoji"))
+        self.label.setText(_translate("MainWindow", "Untitled.emojji"))
         self.menu_F.setTitle(_translate("MainWindow", "文件(&F)"))
         self.menu_E.setTitle(_translate("MainWindow", "插入(&E)"))
         self.action_O.setText(_translate("MainWindow", "打开(&O)"))
@@ -72,10 +72,10 @@ class Ui_MainWindow(object):
         self.action_I.setToolTip(_translate("MainWindow", "打开来自图片的文件"))
         self.action_I.setShortcut(_translate("MainWindow", "Alt+O"))
         self.actionQuit_Q.setText(_translate("MainWindow", "保存(&S)"))
-        self.actionQuit_Q.setToolTip(_translate("MainWindow", "保存为EMOJI文件"))
+        self.actionQuit_Q.setToolTip(_translate("MainWindow", "保存为EMOJII文件"))
         self.actionQuit_Q.setShortcut(_translate("MainWindow", "Ctrl+S"))
         self.action_A.setText(_translate("MainWindow", "另存为……(&A)"))
-        self.action_A.setToolTip(_translate("MainWindow", "另存为EMOJI文件"))
+        self.action_A.setToolTip(_translate("MainWindow", "另存为EMOJII文件"))
         self.action_A.setShortcut(_translate("MainWindow", "Ctrl+A"))
         self.actionQuit_Q_2.setText(_translate("MainWindow", "Quit(&Q)"))
         self.action_T.setText(_translate("MainWindow", "特殊字符(&T)"))

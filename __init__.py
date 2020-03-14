@@ -1,2 +1,0 @@
-﻿#INIT.PY
-from . import *
