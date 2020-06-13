@@ -1,1 +1,8 @@
 theme: jekyll-theme-slate
+gitment:
+  enable: true
+  githubID: xiezheyuan
+  repo: EmojiPlus
+  ClientID: 99436862ecb8ecf31166
+  ClientSecret: ea6b294b7b8b275dfd2b5061729b68fb315d0a78
+  lazy: true
